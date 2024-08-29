@@ -37,7 +37,6 @@ if submitted:
         "accept": "application/json",
         "content-type": "application/json",
         "Api-Key": apikey,
-    #"Api-Key": "I9KBuCdSOELKaM3S3dKDlZj2Qx1YKRFhNX72VJ4J7JQhQdk6i2xuXzap4_t7-hcLR4rczYiDRX7PVUy-GLlQXg"
 
         }
     response = requests.post(url, json=payload, headers=headers)
